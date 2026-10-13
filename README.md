@@ -31,6 +31,8 @@ advice, or a production-certified healthcare platform.
   failure; task and flow states are visible through Prefect.
 - **PostgreSQL outputs:** Writes accepted records to three source-specific
   tables and rejected records to a shared quarantine table.
+- **Power BI reporting:** Includes a report with pipeline KPIs, quarantine
+  breakdowns, source comparisons, and patient health metric visuals.
 - **Containerized stack:** Compose starts PostgreSQL and Prefect, waits for
   health checks, generates sample inputs, and runs the ETL in dependency order.
 
@@ -85,8 +87,31 @@ database—are raised and fail the corresponding task/flow.
 | Validation contracts | Pandera | Type coercion and per-source schema/domain validation |
 | Orchestration | Prefect | Named tasks and flow, task state tracking, extraction retries |
 | Relational storage and SQL access | PostgreSQL, SQLAlchemy, pandas `to_sql` | Persist clean and quarantined records |
+| Reporting | Power BI | Dashboard visuals for record processing, data quality, and health metrics |
 | Source formats | CSV, SQLite, JSON | Three distinct input systems |
 | Containerization | Docker, Docker Compose | Reproducible application, database, and Prefect services |
+
+## Power BI visualization
+
+The project includes an editable Power BI report and a screenshot of its
+dashboard:
+
+- [Power BI report](assets/Visual%20representation.pbix)
+- [Dashboard screenshot](assets/PowerBI%20visualisation.PNG)
+
+The screenshot shows KPI cards for processed records, quarantined records, and
+compliance, alongside a quarantine-error breakdown, a heart-rate visual, a
+BMI-versus-blood-pressure scatter plot, and a donut chart comparing anomalies
+by source. In this captured report state, the cards show 768 processed records
+and 128 quarantined records; the source chart attributes those quarantines to
+the patient registry (64), lab results (47), and wearable vitals (17).
+
+These figures describe the screenshot, not guaranteed results for future ETL
+runs. Also, the heart-rate visual currently shows a single summed value rather
+than a time series, and the displayed 83.33% compliance rate does not directly
+follow from the two record totals shown. Verify the measure definitions and
+chart fields in Power BI before interpreting those as a trend or a quality
+rate.
 
 ## Repository layout
 
@@ -103,6 +128,9 @@ Clinical-DataOps-ETL-Pipeline/
 ├── requirements.txt
 ├── schemas.py                # Pandera contracts for each source
 ├── seed_data.py              # Optional generator for the three sample inputs
+├── assets/
+│   ├── PowerBI visualisation.PNG  # Dashboard screenshot
+│   └── Visual representation.pbix # Editable Power BI report
 └── source_data/
     ├── lab_results.csv
     ├── legacy_patients.db
