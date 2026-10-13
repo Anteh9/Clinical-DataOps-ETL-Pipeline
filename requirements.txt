@@ -1,0 +1,6 @@
+pandas
+pandera
+python-dotenv
+prefect
+SQLAlchemy
+psycopg[binary]

@@ -1,0 +1,68 @@
+services:
+  postgres_db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-analytics_db}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\""]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+
+  seed_data:
+    build: .
+    command: ["python", "seed_data.py"]
+    volumes:
+      - source_data:/app/source_data
+
+  prefect:
+    build: .
+    command: ["prefect", "server", "start", "--host", "0.0.0.0"]
+    ports:
+      - "4200:4200"
+    volumes:
+      - prefect_data:/root/.prefect
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:4200/api/health', timeout=2).read()",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  etl:
+    build: .
+    command: ["python", "main_flow.py"]
+    environment:
+      DATABASE_USER: ${POSTGRES_USER:-postgres}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      DATABASE_HOST: postgres_db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${POSTGRES_DB:-analytics_db}
+      PREFECT_API_URL: http://prefect:4200/api
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+      seed_data:
+        condition: service_completed_successfully
+      prefect:
+        condition: service_healthy
+    volumes:
+      - source_data:/app/source_data
+
+volumes:
+  postgres_data:
+  prefect_data:
+  source_data:

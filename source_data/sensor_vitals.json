@@ -1,0 +1,926 @@
+[
+    {
+        "patient_id": 11,
+        "heart_rate": 75,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 77,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 80,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 98,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 75,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 99,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 78,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 78,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 95,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 96,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 96,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 79,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 96,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 96,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 95,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 96,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 7,
+        "heart_rate": 84,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 99,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 98,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 97,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 81,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 13,
+        "heart_rate": 88,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 98,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 98,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 7,
+        "heart_rate": 82,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 78,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 77,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 99,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 75,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 81,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 77,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 80,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 83,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 97,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 11,
+        "heart_rate": 92,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 98,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 98,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 77,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 78,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 77,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 97,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 75,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 91,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 11,
+        "heart_rate": 76,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 77,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 79,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 97,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 8,
+        "heart_rate": 93,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 90,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 90,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 99,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 95,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 90,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 93,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 95,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 99,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 96,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 97,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 97,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 8,
+        "heart_rate": 93,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 81,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 78,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 75,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 75,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 98,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 76,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 97,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 77,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 94,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 75,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 97,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 79,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 98,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 96,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 8,
+        "heart_rate": 84,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 13,
+        "heart_rate": 94,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 98,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 7,
+        "heart_rate": 93,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 75,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 7,
+        "heart_rate": 93,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 81,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 97,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 78,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 76,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 76,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 99,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 77,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 91,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 77,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 78,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 80,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 95,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 98,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 99,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 90,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 88,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 96,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 82,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 7,
+        "heart_rate": 84,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 81,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 81,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 99,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 77,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 84,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 96,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 92,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 92,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 95,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 88,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 75,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 97,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 84,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 8,
+        "heart_rate": 97,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 99,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 78,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 78,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 96,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 8,
+        "heart_rate": 92,
+        "spo2_level": 93,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 96,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 92,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 11,
+        "heart_rate": 98,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 76,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 97,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 95,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 13,
+        "heart_rate": 89,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 12,
+        "heart_rate": 96,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 77,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 82,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 86,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 75,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 4,
+        "heart_rate": 97,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 78,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 3,
+        "heart_rate": 75,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 76,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 8,
+        "heart_rate": 95,
+        "spo2_level": 94,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 87,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 7,
+        "heart_rate": 89,
+        "spo2_level": 91,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 0,
+        "heart_rate": 77,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 76,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 6,
+        "heart_rate": 91,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 97,
+        "spo2_level": 90,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 93,
+        "spo2_level": 98,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 9,
+        "heart_rate": 83,
+        "spo2_level": 89,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 10,
+        "heart_rate": 88,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 2,
+        "heart_rate": 77,
+        "spo2_level": 96,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 5,
+        "heart_rate": 80,
+        "spo2_level": 97,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 97,
+        "spo2_level": 92,
+        "recorded_at": "2026-10-12 17:14:54"
+    },
+    {
+        "patient_id": 1,
+        "heart_rate": 98,
+        "spo2_level": 95,
+        "recorded_at": "2026-10-12 17:14:54"
+    }
+]
